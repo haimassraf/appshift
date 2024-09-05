@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="App Shift">
+    <meta property="og:description" content="Effortless and efficient shift management - all your shifts in one place.">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Register</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="registerbody">
+	<header>
+		<nav id="navbar" class="">
+			<div class="nav-wrapper">
+				<div class="logo">
+					<a href="#home"><img src="images/logo.png"></a>
+				</div>
+
+				<ul id="menu">
+					<li><a href="#services">About</a></li>
+					<li><a href="#about">Shifts</a></li>
+					<li><a href="#contact">Add Shift</a></li>
+				</ul>
+			</div>
+		</nav>
+
+
+		<div class="menuIcon">
+			<span class="icon icon-bars"></span>
+			<span class="icon icon-bars overlay"></span>
+		</div>
+
+
+		<div class="overlay-menu">
+			<ul id="menu">
+				<li><a href="#services">About</a></li>
+				<li><a href="#about">Shifts</a></li>
+				<li><a href="#contact">Add Shift</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="heading">
+				<h1>REGISTER</h1>
+			</div>
+
+			<div class="row">
+				<div class="column box padding">
+					<h2 class="bold center">REGISTER</h2>
+					<form action="#" id="registerform" onSubmit="return register()">
+						<input type="email" required id="email" name="email" placeholder="Email">
+						<input type="password" required id="password" name="password" placeholder="Password"
+							minlength="6">
+						<input type="text" required id="firstname" name="firstname" placeholder="First Name"
+							minlength="2">
+						<input type="text" required id="lastname" name="lastname" placeholder="Last Name" minlength="2">
+						<input type="number" required id="age" name="age" placeholder="Age" min="6" max="130"><br>
+						<input type="submit" value="Register">
+					</form>
+				</div>
+				<div class="column box padding rightcol">
+					<h2 class="bold center">Go back? </h2>
+					<div class="center mt-5">
+						<a href="login.html" class="buttonregister">Login</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+
+	</footer>
+	<script src="js/registerl.js"></script>
+</body>
+
+</html>
